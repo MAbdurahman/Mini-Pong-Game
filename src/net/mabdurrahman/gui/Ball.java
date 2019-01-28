@@ -15,8 +15,8 @@ public class Ball {
     private static final int DIAMETER = 40;//The ball's diameter
     public int xPosition = 0;//The ball's horizontal position
     public int yPosition = 50;//The ball's vertical position
-    public int xVelocity = 5;//The ball's horizontal speed
-    public int yVelocity = 5;//The ball's vertical speed
+    public int xVelocity = 8;//The ball's horizontal speed
+    public int yVelocity = 8;//The ball's vertical speed
     private Color color = new Color(247, 242, 20);//The ball's color
     private GamePanel gamePanel;
 

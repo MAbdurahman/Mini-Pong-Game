@@ -67,9 +67,9 @@ public class Paddle {
      */
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_LEFT)
-            paddleSpeed = -10;
+            paddleSpeed = -13;
         if (e.getKeyCode() == KeyEvent.VK_RIGHT)
-            paddleSpeed = 10;
+            paddleSpeed = 13;
 
     }//end of the keyPressed Method
     /**
